@@ -13,10 +13,9 @@ All team members contributed to debugging and iterative model improvement.
 
 ## Project Files
 
-[Jupyter Notebook](./Project_Horse_to_Zebra_Image_Translation_Using_CycleGAN_Md_Naim_Hassan_Saykat_Ahmed_Nazar_Nadja_Zivkovic.ipynb)  
-[Project Report](./Report_Horse_to_Zebra_Image_Translation_Using_CycleGAN_Md_Naim_Hassan_Saykat_Ahmed_Nazar_Nadja_Zivkovic.pdf)  
-Output Examples: `Output.jpeg`  
-Training Data: `trainA`, `trainB`, `testA`, `testB` folders
+[Project Report](./cyclegan_report.pdf)
+[Jupyter Notebook](./cyclegan_horse2zebra.ipynb)
+![Horse to Zebra Translation](./Output.jpeg) 
 
 ---
 
