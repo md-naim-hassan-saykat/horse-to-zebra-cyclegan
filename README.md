@@ -1,8 +1,6 @@
-# horse-to-zebra-cyclegan
-Unpaired image-to-image translation project using CycleGAN to convert horse images into zebras. Implemented in PyTorch and evaluated using SSIM and PSNR.
 # Horse-to-Zebra Image Translation using CycleGAN
 
-This project implements a CycleGAN to perform **unpaired image-to-image translation**, transforming horse images into realistic zebra images. Developed as part of a deep learning course at Université Paris-Saclay, the project explores generative modeling with adversarial training, residual networks, and cycle consistency.
+This project implements a CycleGAN to perform **unpaired image-to-image translation**, transforming horse images into realistic zebra images. Implemented in PyTorch and evaluated using SSIM and PSNR, the project explores generative modeling with adversarial training, residual networks, and cycle consistency.
 
 ## Team Members
 - Md Naim Hassan Saykat — CycleGAN architecture, training loop, evaluation, report writing  
