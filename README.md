@@ -13,9 +13,9 @@ All team members contributed to debugging and iterative model improvement.
 
 ## Project Files
 
-[Project Report](./cyclegan_report.pdf)
 [Jupyter Notebook](./cyclegan_horse2zebra.ipynb)
-![Horse to Zebra Translation](./Output.jpeg) 
+[Project Report](./cyclegan_report.pdf)
+![Horse to Zebra Translation](./images/Output.jpeg)
 
 ---
 
