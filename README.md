@@ -68,6 +68,12 @@ Some results showed **convincing zebra transformation**, while others had **inco
 
 ---
 
+## Example Output
+
+![Horse to Zebra Translation](./zebra_example.png)
+
+---
+
 ## Technologies Used
 
 - Python, PyTorch
