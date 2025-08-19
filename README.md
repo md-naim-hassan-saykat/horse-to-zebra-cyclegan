@@ -2,13 +2,6 @@
 
 This project implements a CycleGAN to perform **unpaired image-to-image translation**, transforming horse images into realistic zebra images. Implemented in PyTorch and evaluated using SSIM and PSNR, the project explores generative modeling with adversarial training, residual networks, and cycle consistency.
 
-## Team Members
-- Md Naim Hassan Saykat — CycleGAN architecture, training loop, evaluation, report writing  
-- Ahmed Nazar — Dataset preparation, preprocessing, augmentation, report writing  
-- Nadja Zivkovic — Testing, validation, report writing  
-
-All team members contributed to debugging and iterative model improvement.
-
 ---
 
 ## Project Files
