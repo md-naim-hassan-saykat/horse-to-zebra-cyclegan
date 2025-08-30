@@ -106,7 +106,7 @@ These metrics provide a simple numerical check but are limited for unpaired tran
 **Md Naim Hassan Saykat**  
 *MSc in Artificial Intelligence, Université Paris-Saclay*  
 
-🔗 [LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
-💻 [GitHub](https://github.com/md-naim-hassan-saykat)  
-📧 [Academic Email](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
-📧 [Personal Email](mailto:mdnaimhassansaykat@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
+[GitHub](https://github.com/md-naim-hassan-saykat)  
+[Academic Email](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
+[Personal Email](mailto:mdnaimhassansaykat@gmail.com)
