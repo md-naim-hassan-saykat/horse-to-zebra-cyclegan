@@ -107,4 +107,7 @@ The full project report (LaTeX + PDF) is available in docs/:
 **Md Naim Hassan Saykat**  
 *MSc in Artificial Intelligence, Université Paris-Saclay*  
 
-[LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/) • [GitHub](https://github.com/md-naim-hassan-saykat) • [Email Academic](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr) • [Email Personal](mailto:mdnaimhassansaykat@gmail.com)
+• [LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)
+• [GitHub](https://github.com/md-naim-hassan-saykat)
+• [Email Academic](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)
+• [Email Personal](mailto:mdnaimhassansaykat@gmail.com)
