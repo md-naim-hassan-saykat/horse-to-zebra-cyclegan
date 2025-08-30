@@ -11,7 +11,7 @@ Both directions are trained (Horse→Zebra and Zebra→Horse). The models are ev
 
 ## Project Overview
 - **Framework:** PyTorch  
-- **Dataset:** [horse2zebra dataset](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/) from the original CycleGAN paper.  
+- **Dataset:** [horse2zebra dataset on Kaggle](https://www.kaggle.com/datasets/suyashdamle/cyclegan) (original CycleGAN paper dataset, mirrored on Kaggle)
 - **Generators:** U-Net-like encoder–decoder with residual blocks.  
 - **Discriminators:** PatchGAN classifiers.  
 - **Losses:**  
@@ -49,7 +49,7 @@ cyclegan-horse2zebra/
 
 ### Clone the repo
 ```bash
-git clone https://github.com/yourusername/cyclegan-horse2zebra.git
+git clone https://github.com/md-naim-hassan-saykat/cyclegan-horse2zebra.git
 cd cyclegan-horse2zebra
 ## Install dependencies
 pip install -r requirements.txt
@@ -59,6 +59,11 @@ Dependencies include:
 	•	numpy, tqdm, PIL
 	•	matplotlib
 ## Download the dataset
+# Option 1: Kaggle (recommended)
+kaggle datasets download -d suyashdamle/cyclegan -p ./data/
+unzip ./data/cyclegan.zip -d ./data/
+
+# Option 2: Direct download (mirror, if Kaggle not available)
 wget http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/horse2zebra.zip -O horse2zebra.zip
 unzip horse2zebra.zip -d ./data/
 ## Train the model
