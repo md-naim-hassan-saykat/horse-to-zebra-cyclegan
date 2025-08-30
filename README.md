@@ -1,4 +1,7 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/md-naim-hassan-saykat/cyclegan-horse2zebra/blob/main/cyclegan-horse2zebra.ipynb)
+# Horse↔Zebra Image Translation Using CycleGAN
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/md-naim-hassan-saykat/horse-to-zebra-cyclegan/blob/main/cyclegan-horse2zebra.ipynb)
+
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
