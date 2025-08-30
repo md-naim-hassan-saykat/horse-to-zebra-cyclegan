@@ -39,7 +39,7 @@ cyclegan-horse2zebra/
 ├── README.md
 └── .gitignore
 ---
-
+## Repository Structure
 ## Getting Started
 
 ### Clone the repo
