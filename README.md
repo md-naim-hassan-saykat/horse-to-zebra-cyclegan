@@ -55,11 +55,12 @@ git clone https://github.com/md-naim-hassan-saykat/cyclegan-horse2zebra.git
 cd cyclegan-horse2zebra
 ## Install dependencies
 pip install -r requirements.txt
-Dependencies include:
-	•	torch, torchvision
-	•	scikit-image (for SSIM, PSNR)
-	•	numpy, tqdm, PIL
-	•	matplotlib
+
+**Dependencies include:**
+- torch, torchvision
+- scikit-image (for SSIM, PSNR)
+- numpy, tqdm, PIL
+- matplotlib
 ## Download the dataset
 # Option 1: Kaggle (recommended)
 kaggle datasets download -d suyashdamle/cyclegan -p ./data/
@@ -89,9 +90,7 @@ Quantitative Evaluation
 
 These metrics provide a simple numerical check but are limited for unpaired translation tasks.
 ## Report
-
-The full project report (LaTeX + PDF) is available in docs/:
-## Read the Report (PDF)
+[Read the full project report (PDF)](docs/main.pdf)
 ## Future Work
 	•	Add perceptual metrics: FID, LPIPS
 	•	Incorporate semantic/attention-based models to improve structural consistency
@@ -107,7 +106,7 @@ The full project report (LaTeX + PDF) is available in docs/:
 **Md Naim Hassan Saykat**  
 *MSc in Artificial Intelligence, Université Paris-Saclay*  
 
-• [LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)
-• [GitHub](https://github.com/md-naim-hassan-saykat)
-• [Email Academic](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)
-• [Email Personal](mailto:mdnaimhassansaykat@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
+💻 [GitHub](https://github.com/md-naim-hassan-saykat)  
+📧 [Academic Email](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
+📧 [Personal Email](mailto:mdnaimhassansaykat@gmail.com)
