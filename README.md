@@ -2,9 +2,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/md-naim-hassan-saykat/horse-to-zebra-cyclegan/blob/main/cyclegan-horse2zebra.ipynb)
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/downloads/release/python-390/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)](https://pytorch.org/get-started/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This project implements **Cycle-Consistent Adversarial Networks (CycleGAN)** in PyTorch for unpaired image-to-image translation between horses and zebras.  
 Both directions are trained (Horse→Zebra and Zebra→Horse). The models are evaluated with **qualitative visualizations** and **quantitative metrics (SSIM, PSNR)**.  
