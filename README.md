@@ -43,7 +43,7 @@ cyclegan-horse2zebra/
 │
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+└── .gitignore 
 
 ---
 
