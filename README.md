@@ -97,11 +97,11 @@ The full project report (LaTeX + PDF) is available in docs/:
 	•	Incorporate semantic/attention-based models to improve structural consistency
 	•	Extend to other unpaired datasets
 ## References
-	•	[1] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
-	•	[2] Zhu et al., Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (CycleGAN), ICCV 2017.
-	•	[3] Wang et al., Image Quality Assessment: From Error Visibility to Structural Similarity (SSIM), IEEE TIP 2004.
-	•	[4] Heusel et al., GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium (FID), NeurIPS 2017.
-	•	[5] Zhang et al., The Unreasonable Effectiveness of Deep Features as a Perceptual Metric (LPIPS), CVPR 2018.
+	•	[1] Heusel et al., GANs Trained by a Two Time-Scale Update Rule (FID), NeurIPS 2017.
+	•	[2] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
+	•	[3] Wang et al., Image Quality Assessment: SSIM, IEEE TIP 2004.
+	•	[4] Zhang et al., Unreasonable Effectiveness of Deep Features (LPIPS), CVPR 2018.
+	•	[5] Zhu et al., Unpaired Image-to-Image Translation using CycleGAN, ICCV 2017.
 ### Author
 
 Md Naim Hassan Saykat
