@@ -1,0 +1,5 @@
+outputs/
+│── real_horses.png
+│── fake_zebras.png
+│── real_zebras.png
+│── fake_horses.png
