@@ -76,12 +76,13 @@ for epoch in range(num_epochs):
 Run the evaluation cells to produce:
 	•	real_horses.png / fake_zebras.png
 	•	real_zebras.png / fake_horses.png
-### Example Results
-### Horse → Zebra  
-<img src="docs/figs/fake_zebras.png" width="600">  
+## Example Results
 
-### Zebra → Horse  
-<img src="docs/figs/fake_horses.png" width="600">  
+### Horse → Zebra
+<img src="outputs/fake_zebras.png" width="600">
+
+### Zebra → Horse
+<img src="outputs/fake_horses.png" width="600"> 
 Quantitative Evaluation
 	•	SSIM: Structural Similarity Index (10 samples averaged)
 	•	PSNR: Peak Signal-to-Noise Ratio (10 samples averaged)
