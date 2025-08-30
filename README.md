@@ -105,9 +105,9 @@ The full project report (LaTeX + PDF) is available in docs/:
 ### Author  
 
 **Md Naim Hassan Saykat**  
-*MSc in Artificial Intelligence, Université Paris-Saclay*  
+*MSc in Artificial Intelligence, Université Paris-Saclay (Paris-Saclay University)*  
 
-- [GitHub](https://github.com/md-naim-hassan-saykat)  
-- [LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
-- [Email (Academic)](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
-- [Email (Personal)](mailto:mdnaimhassansaykat@gmail.com)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/md-naim-hassan-saykat)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
+[![Email Academic](https://img.shields.io/badge/Email%20(Academic)-D14836?logo=gmail&logoColor=white)](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
+[![Email Personal](https://img.shields.io/badge/Email%20(Personal)-EA4335?logo=gmail&logoColor=white)](mailto:mdnaimhassansaykat@gmail.com)  
