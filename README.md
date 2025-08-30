@@ -1,89 +1,94 @@
-# Horse-to-Zebra Image Translation using CycleGAN
+# Horse↔Zebra Image Translation Using CycleGAN
 
-This project implements a CycleGAN to perform **unpaired image-to-image translation**, transforming horse images into realistic zebra images. Implemented in PyTorch and evaluated using SSIM and PSNR, the project explores generative modeling with adversarial training, residual networks, and cycle consistency.
-
----
-
-## Project Files
-
-[Jupyter Notebook](./cyclegan_horse2zebra.ipynb)
-[Project Report](./cyclegan_report.pdf)
+This project implements **Cycle-Consistent Adversarial Networks (CycleGAN)** in PyTorch for unpaired image-to-image translation between horses and zebras.  
+Both directions are trained (Horse→Zebra and Zebra→Horse). The models are evaluated with **qualitative visualizations** and **quantitative metrics (SSIM, PSNR)**.  
 
 ---
 
-## Objective
-
-Train a CycleGAN that learns to translate horse images into zebra images **without paired data**, and evaluate the quality using both **visual inspection** and **quantitative metrics** (SSIM & PSNR).
-
----
-
-## Model Architecture
-
-CycleGAN consists of:
-- Two Generators (Horse→Zebra, Zebra→Horse)
-- Two PatchGAN Discriminators
-- Losses: Least Squares GAN + Cycle Consistency Loss (λ = 10)
-
-**Generator:** ResNet-based with 9 residual blocks  
-**Discriminator:** PatchGAN to capture fine-grained textures  
-**Framework:** PyTorch
+## Project Overview
+- **Framework:** PyTorch  
+- **Dataset:** [horse2zebra dataset](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/) from the original CycleGAN paper.  
+- **Generators:** U-Net-like encoder–decoder with residual blocks.  
+- **Discriminators:** PatchGAN classifiers.  
+- **Losses:**  
+  - Adversarial (MSE)  
+  - Cycle-consistency (L1)  
+- **Optimization:** Adam (lr = 0.0002, betas = (0.5, 0.999))  
+- **Training:** 100 epochs, batch size = 1  
+- **Evaluation:** SSIM, PSNR  
 
 ---
 
-## Dataset and Preprocessing
-
-- **Dataset:** Horse2Zebra from [CycleGAN official datasets](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)
-- **Total Images:** 1,187 horses and 1,474 zebras
-- **Preprocessing:** Resize to 256×256, normalization to [-1, 1], data augmentation (random flip, crop)
-
+## Repository Structure
+cyclegan-horse2zebra/
+│
+├── notebooks/
+│   └── cyclegan-horse2zebra.ipynb   # Main Jupyter Notebook
+│
+├── docs/
+│   ├── main.tex                     # LaTeX report
+│   ├── references.bib               # References for the report
+│   ├── main.pdf                     # Compiled project report
+│   └── figs/                        # Saved result figures
+│       ├── real_horses.png
+│       ├── fake_zebras.png
+│       ├── real_zebras.png
+│       └── fake_horses.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 ---
 
-## Training Details
+## Getting Started
 
-- **Epochs:** 100  
-- **Optimizer:** Adam (LR = 0.0002, β1 = 0.5, β2 = 0.999)  
-- **Batch size:** 1  
-- **GPU:** Google Colab  
-- **Checkpointing:** Per-epoch visual outputs and model weights
+### Clone the repo
+```bash
+git clone https://github.com/yourusername/cyclegan-horse2zebra.git
+cd cyclegan-horse2zebra
+## Install dependencies
+pip install -r requirements.txt
+Dependencies include:
+	•	torch, torchvision
+	•	scikit-image (for SSIM, PSNR)
+	•	numpy, tqdm, PIL
+	•	matplotlib
+## Download the dataset
+wget http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/horse2zebra.zip -O horse2zebra.zip
+unzip horse2zebra.zip -d ./data/
+## Train the model
+Inside the notebook (notebooks/cyclegan-horse2zebra.ipynb), run the training loop:
+for epoch in range(num_epochs):
+    ...
+## Generate results
+Run the evaluation cells to produce:
+	•	real_horses.png / fake_zebras.png
+	•	real_zebras.png / fake_horses.png
+### Example Results
+## Horse → Zebra
+<img src="docs/figs/fake_zebras.png" width="600">
+## Zebra → Horse
+<img src="docs/figs/fake_horses.png" width="600">
+Quantitative Evaluation
+	•	SSIM: Structural Similarity Index (10 samples averaged)
+	•	PSNR: Peak Signal-to-Noise Ratio (10 samples averaged)
 
----
+These metrics provide a simple numerical check but are limited for unpaired translation tasks.
+## Report
 
-## Evaluation Metrics
-
-| Metric | Result |
-|--------|--------|
-| SSIM (avg) | 0.73 |
-| PSNR (avg) | 22.4 dB |
-
-Some results showed **convincing zebra transformation**, while others had **inconsistent textures** or color artifacts—especially in areas with shadows or dense textures.
-
----
-
-## Example Output
-
-![Horse to Zebra Translation](./output.jpeg)
-
----
-
-## Technologies Used
-
-- Python, PyTorch
-- torchvision
-- Jupyter Notebook
-- Google Colab
-- LaTeX (for report writing)
-
----
-
+The full project report (LaTeX + PDF) is available in docs/:
+## Read the Report (PDF)
+## Future Work
+	•	Add perceptual metrics: FID, LPIPS
+	•	Incorporate semantic/attention-based models to improve structural consistency
+	•	Extend to other unpaired datasets
 ## References
+	•	[1] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
+	•	[2] Zhu et al., Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (CycleGAN), ICCV 2017.
+	•	[3] Wang et al., Image Quality Assessment: From Error Visibility to Structural Similarity (SSIM), IEEE TIP 2004.
+	•	[4] Heusel et al., GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium (FID), NeurIPS 2017.
+	•	[5] Zhang et al., The Unreasonable Effectiveness of Deep Features as a Perceptual Metric (LPIPS), CVPR 2018.
+### Author
 
-1. [CycleGAN Paper (Zhu et al., 2017)](https://arxiv.org/abs/1703.10593)  
-2. [Pix2Pix (Isola et al., 2017)](https://arxiv.org/abs/1611.07004)  
-3. [GANs (Goodfellow et al., 2014)](https://arxiv.org/abs/1406.2661)  
-
----
-
-## Disclaimer
-
-This project is shared for academic demonstration purposes only.  
-Reuse, reproduction, or distribution is not permitted without explicit permission.
+Md Naim Hassan Saykat
+MSc in Artificial Intelligence, Paris-Saclay University
