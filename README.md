@@ -6,8 +6,6 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-# Horse↔Zebra Image Translation Using CycleGAN
-
 This project implements **Cycle-Consistent Adversarial Networks (CycleGAN)** in PyTorch for unpaired image-to-image translation between horses and zebras.  
 Both directions are trained (Horse→Zebra and Zebra→Horse). The models are evaluated with **qualitative visualizations** and **quantitative metrics (SSIM, PSNR)**.  
 
