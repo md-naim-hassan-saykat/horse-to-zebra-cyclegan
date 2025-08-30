@@ -26,7 +26,7 @@ Both directions are trained (Horse→Zebra and Zebra→Horse). The models are ev
 ---
 
 ## Repository Structure
-cyclegan-horse2zebra/
+horse-to-zebra-cyclegan/
 │
 ├── notebooks/
 │   └── cyclegan-horse2zebra.ipynb   # Main Jupyter Notebook
