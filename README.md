@@ -32,9 +32,9 @@ horse-to-zebra-cyclegan/
 │   └── cyclegan-horse2zebra.ipynb   # Main Jupyter Notebook
 │
 ├── docs/
-│   ├── main.tex                     # LaTeX report
+│   ├── report.tex                     # LaTeX report
 │   ├── references.bib               # References for the report
-│   └── main.pdf                     # Compiled project report
+│   └── report.pdf                     # Compiled project report
 │
 ├── outputs/                         # Saved result figures
 │   ├── real_horses.png
