@@ -27,23 +27,23 @@ Both directions are trained (Horse→Zebra and Zebra→Horse). The models are ev
 
 ## Repository Structure
 horse-to-zebra-cyclegan/
-│
 ├── notebooks/
 │   └── cyclegan-horse2zebra.ipynb   # Main Jupyter Notebook
 │
 ├── docs/
 │   ├── main.tex                     # LaTeX report
 │   ├── references.bib               # References for the report
-│   ├── main.pdf                     # Compiled project report
-│   └── figs/                        # Saved result figures
-│       ├── real_horses.png
-│       ├── fake_zebras.png
-│       ├── real_zebras.png
-│       └── fake_horses.png
+│   └── main.pdf                     # Compiled project report
+│
+├── outputs/                         # Saved result figures
+│   ├── real_horses.png
+│   ├── fake_zebras.png
+│   ├── real_zebras.png
+│   └── fake_horses.png
 │
 ├── requirements.txt
 ├── README.md
-└── .gitignore 
+└── .gitignore
 
 ---
 
