@@ -102,9 +102,10 @@ These metrics provide a simple numerical check but are limited for unpaired tran
 	•	[3] Wang et al., Image Quality Assessment: SSIM, IEEE TIP 2004.
 	•	[4] Zhang et al., Unreasonable Effectiveness of Deep Features (LPIPS), CVPR 2018.
 	•	[5] Zhu et al., Unpaired Image-to-Image Translation using CycleGAN, ICCV 2017.
-## Author  
 
-**Md Naim Hassan Saykat**  
+ ## Author
+
+ **Md Naim Hassan Saykat**  
 *MSc in Artificial Intelligence, Université Paris-Saclay*  
 
 [LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
