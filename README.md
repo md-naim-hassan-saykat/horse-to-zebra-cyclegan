@@ -84,7 +84,7 @@ Run the evaluation cells to produce:
 
 These metrics provide a simple numerical check but are limited for unpaired translation tasks.
 ## Report
-[Read the full project report (PDF)]([docs/main.pdf](https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan/blob/main/docs/report.pdf))
+[Read the full project report (PDF)](docs/report.pdf)
 ## Future Work
 	•	Add perceptual metrics: FID, LPIPS
 	•	Incorporate semantic/attention-based models to improve structural consistency
