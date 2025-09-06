@@ -52,7 +52,7 @@ horse-to-zebra-cyclegan/
 ## Getting Started
 
 ### Clone the repo
-git clone https://github.com/md-naim-hassan-saykat/cyclegan-horse2zebra
+git clone https://github.com/md-naim-hassan-saykat/cyclegan-horse2zebra.git
 cd cyclegan-horse2zebra
 ## Install dependencies
 pip install -r requirements.txt
