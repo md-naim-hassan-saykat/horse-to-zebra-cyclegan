@@ -51,7 +51,6 @@ horse-to-zebra-cyclegan/
 ## Getting Started
 
 ### Clone the repo
-```bash
 git clone https://github.com/md-naim-hassan-saykat/cyclegan-horse2zebra.git
 cd cyclegan-horse2zebra
 ## Install dependencies
