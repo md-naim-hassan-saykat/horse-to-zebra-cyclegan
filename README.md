@@ -1,7 +1,7 @@
 # Horse↔Zebra Image Translation Using CycleGAN
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/md-naim-hassan-saykat/skin-cancer-cnn/blob/main/BachelorThesis/skin-cancer.ipynb)
+https://colab.research.google.com/github/md-naim-hassan-saykat/cyclegan-horse2zebra/blob/main/notebooks/cyclegan-horse2zebra.ipynb)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/downloads/release/python-390/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)](https://pytorch.org/get-started/)
@@ -52,8 +52,8 @@ horse-to-zebra-cyclegan/
 ## Getting Started
 
 ### Clone the repo
-git clone [https://github.com/md-naim-hassan-saykat/cyclegan-horse2zebra](https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan).git
-cd cyclegan-horse2zebra
+git clone https://github.com/md-naim-hassan-saykat/horse-to-zebra-cyclegan.git
+cd horse-to-zebra-cyclegan
 ## Install dependencies
 pip install -r requirements.txt
 
@@ -86,9 +86,9 @@ These metrics provide a simple numerical check but are limited for unpaired tran
 ## Report
 [Read the full project report (PDF)](docs/report.pdf)
 ## Future Work
-	•	Add perceptual metrics: FID, LPIPS
-	•	Incorporate semantic/attention-based models to improve structural consistency
-	•	Extend to other unpaired datasets
+	→	Add perceptual metrics: FID, LPIPS
+	→	Incorporate semantic/attention-based models to improve structural consistency
+	→	Extend to other unpaired datasets
 ## References
 	•	[1] Heusel et al., GANs Trained by a Two Time-Scale Update Rule (FID), NeurIPS 2017.
 	•	[2] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
