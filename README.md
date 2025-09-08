@@ -1,7 +1,7 @@
 # Horse↔Zebra Image Translation Using CycleGAN
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/md-naim-hassan-saykat/cyclegan-horse2zebra/blob/main/notebooks/cyclegan-horse2zebra.ipynb)
+https://colab.research.google.com/github/md-naim-hassan-saykat/horse-to-zebra-cyclegan/blob/main/notebooks/cyclegan-horse2zebra.ipynb)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/downloads/release/python-390/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)](https://pytorch.org/get-started/)
@@ -90,11 +90,11 @@ These metrics provide a simple numerical check but are limited for unpaired tran
 	→	Incorporate semantic/attention-based models to improve structural consistency
 	→	Extend to other unpaired datasets
 ## References
-	•	[1] Heusel et al., GANs Trained by a Two Time-Scale Update Rule (FID), NeurIPS 2017.
-	•	[2] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
-	•	[3] Wang et al., Image Quality Assessment: SSIM, IEEE TIP 2004.
-	•	[4] Zhang et al., Unreasonable Effectiveness of Deep Features (LPIPS), CVPR 2018.
-	•	[5] Zhu et al., Unpaired Image-to-Image Translation using CycleGAN, ICCV 2017.
+	→	[1] Heusel et al., GANs Trained by a Two Time-Scale Update Rule (FID), NeurIPS 2017.
+	→	[2] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
+	→	[3] Wang et al., Image Quality Assessment: SSIM, IEEE TIP 2004.
+	→	[4] Zhang et al., Unreasonable Effectiveness of Deep Features (LPIPS), CVPR 2018.
+	→	[5] Zhu et al., Unpaired Image-to-Image Translation using CycleGAN, ICCV 2017.
 
  ## Author
 
