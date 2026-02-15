@@ -76,6 +76,7 @@ for epoch in range(num_epochs):
     ...
 ## Generate results
 Run the evaluation cells to produce:
+
 	•	real_horses.png / fake_zebras.png
 	•	real_zebras.png / fake_horses.png
 ## Quantitative Evaluation
