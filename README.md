@@ -15,7 +15,7 @@ Both directions are trained (Horse-to-Zebra and Zebra-to-Horse). The models are 
 ## Project Overview
 - **Framework:** PyTorch  
 - **Dataset:** [horse2zebra dataset on Kaggle](https://www.kaggle.com/datasets/suyashdamle/cyclegan) (original CycleGAN paper dataset, mirrored on Kaggle)
-- **Generators:** U-Net-like encoder–decoder with residual blocks.  
+- **Generators:** U-Net-like encoder-decoder with residual blocks.  
 - **Discriminators:** PatchGAN classifiers.  
 - **Losses:**  
   - Adversarial (MSE)  
