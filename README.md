@@ -76,26 +76,26 @@ for epoch in range(num_epochs):
     ...
 ## Generate results
 Run the evaluation cells to produce:
+- real_horses.png / fake_zebras.png
+- real_zebras.png / fake_horses.png
 
-	.	real_horses.png / fake_zebras.png
-	.	real_zebras.png / fake_horses.png
 ## Quantitative Evaluation
-	.	SSIM: Structural Similarity Index (10 samples averaged)
-	.	PSNR: Peak Signal-to-Noise Ratio (10 samples averaged)
+- SSIM: Structural Similarity Index (10 samples averaged)
+- PSNR: Peak Signal-to-Noise Ratio (10 samples averaged)
 
 These metrics provide a simple numerical check but are limited for unpaired translation tasks.
 ## Report
 [Read the full project report (PDF)](docs/report.pdf)
 ## Future Work
-	.	Add perceptual metrics: FID, LPIPS
-	.	Incorporate semantic/attention-based models to improve structural consistency
-	.	Extend to other unpaired datasets
+- Add perceptual metrics: FID, LPIPS
+- Incorporate semantic/attention-based models to improve structural consistency
+- Extend to other unpaired datasets
 ## References
-	.	[1] Heusel et al., GANs Trained by a Two Time-Scale Update Rule (FID), NeurIPS 2017.
-	.	[2] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
-	.	[3] Wang et al., Image Quality Assessment: SSIM, IEEE TIP 2004.
-	.	[4] Zhang et al., Unreasonable Effectiveness of Deep Features (LPIPS), CVPR 2018.
-	.	[5] Zhu et al., Unpaired Image-to-Image Translation using CycleGAN, ICCV 2017.
+- [1] Heusel et al., GANs Trained by a Two Time-Scale Update Rule (FID), NeurIPS 2017.
+- [2] Isola et al., Image-to-Image Translation with Conditional Adversarial Networks (pix2pix), CVPR 2017.
+- [3] Wang et al., Image Quality Assessment: SSIM, IEEE TIP 2004.
+- [4] Zhang et al., Unreasonable Effectiveness of Deep Features (LPIPS), CVPR 2018.
+- [5] Zhu et al., Unpaired Image-to-Image Translation using CycleGAN, ICCV 2017.
 
  ## Author
 
